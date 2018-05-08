@@ -40,14 +40,14 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: __dirname + "/app/index.tmpl.html" //new 一个这个插件的实例，并传入相关的参数
     }),
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.optimize.OccurrenceOrderPlugin(),
-    new webpack.optimize.UglifyJsPlugin(), //热加载插件
-    new ExtractTextPlugin("style.css"),
+    new webpack.HotModuleReplacementPlugin(), //热加载插件
+    new webpack.optimize.OccurrenceOrderPlugin(), //为组件分配ID
+    new webpack.optimize.UglifyJsPlugin(), //压缩JS代码
+    new ExtractTextPlugin("style.css"),//分离CSS和JS文件
     new CleanWebpackPlugin('build/*.*', {
       root: __dirname,
       verbose: true,
       dry: false
-  })
+    })
   ]
 }
