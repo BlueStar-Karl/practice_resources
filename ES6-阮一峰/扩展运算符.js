@@ -60,8 +60,20 @@
 		var array = [...nodeList];
 		//将一个伪数组转化伪数组
 
-		对于没有部署lterator接口的数组的对象，扩展运算符就无法将其转化为真正的数组
+		对于没有部署lterator接口的数组的对象，扩展运算符就无法将其转化为真正的数组；强行使用，将会报错。
 
 	(6)Map和Set结构，Generator函数
 		扩展运算符内部调用的是数据结构的lterator接口，因此只要有lterator接口的对象，都可以使用扩展运算符，比如Map、Set结构，Generator函数。
+
+		let map = new Map([
+				[1,'one'],
+				[2,'two'],
+				[3,three]
+			])
+
+		let arr = [...map.keys()]; 	//[1,2,3]
+
+
+
+
 
