@@ -1,8 +1,8 @@
 # 一.概述
 
-	1. 简单来说,**NodeJs**就是运行在**服务端**的**JavaScript**。
-	2. NodeJs 是一个基于 Chrome V8引擎建立的一个平台;V8引擎执行JavaScript优点**速度快,性能好**。
-	3. NodeJs 是一个**事件驱动**的 I/O 服务端 JavaScript 环境。
+1. 简单来说,**NodeJs**就是运行在**服务端**的**JavaScript**。
+2. NodeJs 是一个基于 Chrome V8引擎建立的一个平台;V8引擎执行JavaScript优点**速度快,性能好**。
+3. NodeJs 是一个**事件驱动**的 I/O 服务端 JavaScript 环境。
 
 ## 特点
 
@@ -28,13 +28,13 @@
 # 二.创建应用  
 	使用NodeJs时，我们在实现一个应用，同时还实现了整个HTTP服务器。  
 	
-	## node应用由三部分组成
-		1. 引入 require 模块：可以使用 require 指令来载入 NodeJs 模块。
-		2. 创建服务器：服务器可以监听客户端的请求，类似于Apache，Nginx等HTTP服务器。
-		3. 接收请求与相应请求：客户端可以使用浏览器或终端发送HTTP请求，服务器接收请求后返回相应数据。
-	
-	（一）引入required
-		```
-		var http = require('http');
-		```
+## node应用由三部分组成
+	1. 引入 require 模块：可以使用 require 指令来载入 NodeJs 模块。
+	2. 创建服务器：服务器可以监听客户端的请求，类似于Apache，Nginx等HTTP服务器。
+	3. 接收请求与相应请求：客户端可以使用浏览器或终端发送HTTP请求，服务器接收请求后返回相应数据。
+
+（一）引入required
+	```
+	var http = require('http');
+	```
 	
