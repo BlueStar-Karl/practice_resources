@@ -31,10 +31,20 @@
 ## node应用由三部分组成
 1. 引入 require 模块：可以使用 require 指令来载入 NodeJs 模块。
 2. 创建服务器：服务器可以监听客户端的请求，类似于Apache，Nginx等HTTP服务器。
-3. 接收请求与相应请求：客户端可以使用浏览器或终端发送HTTP请求，服务器接收请求后返回相应数据。
+3. 接收请求与响应请求：客户端可以使用浏览器或终端发送HTTP请求，服务器接收请求后返回相应数据。
 
-（一）引入required
+（一）引入required  
 	```
 	var http = require('http');
 	```
 	
+（二）创建服务器
+	```
+	http.createServer(function (request,respinse) {
+		response.writeHead(200, {'Content-Type': 'text/plain'});
+		response.end('Hello World\n');
+	}).listen(8888);
+	
+	//终端打印如下信息  
+	consoole.log('Server running at http://127.0.0.1:8888')
+	```
