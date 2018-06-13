@@ -45,5 +45,15 @@
 		response.end('Hello World\n');  
 	}).listen(8888);  
 	//终端打印如下信息    
-	consoole.log('Server running at http://127.0.0.1:8888')  
+	console.log('Server running at http://127.0.0.1:8888')  
 	```
+	
+# 三.简单的 REST API
+	REST 概述  
+		REST 即表述性状态传递（英文：Representational State Transfer,简称REST）是Roy Fidlding博士在2000年他的博士论文中提出来的一种软件架构风格。  
+		表述性状态转移是一组架构约束条件和原则。满足这些约束性条件和原则的应用程序或设计就是 RESTful，注意REST是风格而不是标准。  
+	
+	## 实际应用
+		1. get接口：localhost:3000/v1/api/training
+		2. post接口: localhost:3000/v1/api/training  
+		
