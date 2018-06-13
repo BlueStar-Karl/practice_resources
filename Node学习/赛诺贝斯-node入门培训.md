@@ -38,7 +38,7 @@
 	var http = require('http');
 	```
 	
-（二）创建服务器
+（二）创建服务器  
 	```
 	http.createServer(function (request,respinse) {
 		response.writeHead(200, {'Content-Type': 'text/plain'});
