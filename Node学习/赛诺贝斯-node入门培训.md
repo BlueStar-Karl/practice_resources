@@ -40,10 +40,10 @@
 	
 （二）创建服务器  
 	```
-	http.createServer(function (request,respinse) {
-		response.writeHead(200, {'Content-Type': 'text/plain'});
-		response.end('Hello World\n');
-	}).listen(8888);
-	//终端打印如下信息  
-	consoole.log('Server running at http://127.0.0.1:8888')
+	http.createServer(function (request,respinse) {  
+		response.writeHead(200, {'Content-Type': 'text/plain'});  
+		response.end('Hello World\n');  
+	}).listen(8888);  
+	//终端打印如下信息    
+	consoole.log('Server running at http://127.0.0.1:8888')  
 	```
