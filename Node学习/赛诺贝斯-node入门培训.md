@@ -53,7 +53,7 @@
 		REST 即表述性状态传递（英文：Representational State Transfer,简称REST）是Roy Fidlding博士在2000年他的博士论文中提出来的一种软件架构风格。  
 		表述性状态转移是一组架构约束条件和原则。满足这些约束性条件和原则的应用程序或设计就是 RESTful，注意REST是风格而不是标准。  
 	
-	## 实际应用
+## 实际应用
 		1. get接口：localhost:3000/v1/api/training
 		2. post接口: localhost:3000/v1/api/training  
 		
