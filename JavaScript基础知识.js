@@ -1,6 +1,6 @@
-## 什么是JavaScript
+什么是JavaScript
 
-JavaScript 是一种**基于对象和事件驱动**的客户端脚本语言  
+JavaScript 是一种基于对象和事件驱动的客户端脚本语言  
 
 整个文档（document）是一个树状结构，我们称之为DOM树，因此元素和元素直接会有父子或兄弟关系  
 
