@@ -1,0 +1,68 @@
+一般配置：
+    git config --global user.name
+    git config --global user.email
+
+
+创建一个文件夹
+    mkdir nodejs
+    cd nodejs
+
+
+初始化仓库
+    touch .gitignore    //不需要服务器提交的内容可以写到忽略文件里
+
+
+查看文件内容
+    cat index.html
+
+
+删除文件：
+    rm index.html
+
+
+推送：
+    git add .
+    git commit -m '备注信息'
+    git push
+
+
+查看版本：
+    git log --oneline
+
+
+比较差异：
+    git diff
+
+
+撤回内容：
+    git checkout index.html     //add之后，回退
+    git reset HEAD index.html   //commit之后，回退
+    git reset --hard HEAD       //push之后，版本回退
+
+
+回滚到未来：
+    git reflog
+
+
+分支管理：
+    git branch dev              //创建分支
+    git checkout dev            //切换分支
+    git checkout -b dev         //创建并切换
+    git branch -d dev           //删除分支
+    git commit -a -m 'dev1'     //在分支上提交新的版本
+    git merge dev               //合并分支
+
+
+添加远程仓库：
+    git push origin master -u   //获取最新代码
+    git remote add origin 仓库地址      //连接远程仓库
+
+
+
+
+
+
+
+
+
+
