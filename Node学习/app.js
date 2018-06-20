@@ -18,7 +18,7 @@ const port = 3000;              //端口
 
 const server = http.createServer((req, res) => {        //创建服务器，成功回调
     //req请求，res响应
-    res.statusCode = 200;
+    res.statusCode = 200;       //状态码
     res.setHeader('Content-Type', 'text/plain');
     res.end('Hello World\n');
 });
