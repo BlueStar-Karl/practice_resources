@@ -100,6 +100,15 @@
 								</div>	
 							*/
 
+		表单相关指令
+		ng-disabled
+		ng-readonly
+		ng-checked
+		ng-value
+
+		表单验证
+		
+
 
 7.filter过滤器
 	currency 		//格式化数字为货币格式
