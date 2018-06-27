@@ -2,8 +2,420 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21d71392-f66f-4be7-a877-350752d0ff2f" name="Default" comment="更新">
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/crawler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/.recently_updates.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_@types_node@10.3.6@@types/node/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_@types_node@10.3.6@@types/node/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_@types_node@10.3.6@@types/node/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_@types_node@10.3.6@@types/node/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_@types_node@10.3.6@@types/node/inspector.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_@types_node@10.3.6@@types/node/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_boolbase@1.0.0@boolbase/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_boolbase@1.0.0@boolbase/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_boolbase@1.0.0@boolbase/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_boolbase@1.0.0@boolbase/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/lib/api/attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/lib/api/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/lib/api/forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/lib/api/manipulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/lib/api/traversing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/lib/cheerio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/lib/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/lib/static.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_cheerio@1.0.0-rc.2@cheerio/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_core-util-is@1.0.2@core-util-is/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_core-util-is@1.0.2@core-util-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_core-util-is@1.0.2@core-util-is/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_core-util-is@1.0.2@core-util-is/float.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_core-util-is@1.0.2@core-util-is/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_core-util-is@1.0.2@core-util-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_core-util-is@1.0.2@core-util-is/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-select@1.2.0@css-select/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-select@1.2.0@css-select/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-select@1.2.0@css-select/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-select@1.2.0@css-select/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-select@1.2.0@css-select/lib/attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-select@1.2.0@css-select/lib/compile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-select@1.2.0@css-select/lib/general.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-select@1.2.0@css-select/lib/procedure.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-select@1.2.0@css-select/lib/pseudos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-select@1.2.0@css-select/lib/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-select@1.2.0@css-select/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-what@2.1.0@css-what/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-what@2.1.0@css-what/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-what@2.1.0@css-what/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-what@2.1.0@css-what/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_css-what@2.1.0@css-what/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_dom-serializer@0.1.0@dom-serializer/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_dom-serializer@0.1.0@dom-serializer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_dom-serializer@0.1.0@dom-serializer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_dom-serializer@0.1.0@dom-serializer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domelementtype@1.1.3@domelementtype/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domelementtype@1.1.3@domelementtype/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domelementtype@1.1.3@domelementtype/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domelementtype@1.1.3@domelementtype/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domelementtype@1.1.3@domelementtype/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domelementtype@1.3.0@domelementtype/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domelementtype@1.3.0@domelementtype/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domelementtype@1.3.0@domelementtype/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domelementtype@1.3.0@domelementtype/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domelementtype@1.3.0@domelementtype/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/lib/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/lib/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/01-basic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/02-single_tag_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/03-single_tag_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/04-unescaped_in_script.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/05-tags_in_comment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/06-comment_in_script.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/07-unescaped_in_style.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/08-extra_spaces_in_tag.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/09-unquoted_attrib.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/10-singular_attribute.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/11-text_outside_tags.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/12-text_only.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/13-comment_in_text.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/14-comment_in_text_in_script.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/15-non-verbose.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/16-normalize_whitespace.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/17-xml_namespace.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/18-enforce_empty_tags.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/19-ignore_empty_tags.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/20-template_script_tags.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/21-conditional_comments.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/22-lowercase_tags.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/23-dom-lvl1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/24-with-start-indices.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/cases/25-with-end-indices.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domhandler@2.4.2@domhandler/test/tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/lib/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/lib/legacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/lib/manipulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/lib/querying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/lib/traversal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/test/fixture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/test/tests/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/test/tests/legacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/test/tests/traversal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.5.1@domutils/test/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/lib/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/lib/legacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/lib/manipulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/lib/querying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/lib/traversal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/test/fixture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/test/tests/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/test/tests/legacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/test/tests/traversal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_domutils@1.7.0@domutils/test/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/lib/decode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/lib/decode_codepoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/lib/encode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/maps/decode.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/maps/entities.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/maps/legacy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/maps/xml.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/test/mocha.opts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_entities@1.1.1@entities/test/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_htmlparser2@3.9.2@htmlparser2/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_htmlparser2@3.9.2@htmlparser2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_htmlparser2@3.9.2@htmlparser2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_htmlparser2@3.9.2@htmlparser2/lib/CollectingHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_htmlparser2@3.9.2@htmlparser2/lib/FeedHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_htmlparser2@3.9.2@htmlparser2/lib/Parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_htmlparser2@3.9.2@htmlparser2/lib/ProxyHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_htmlparser2@3.9.2@htmlparser2/lib/Stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_htmlparser2@3.9.2@htmlparser2/lib/Tokenizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_htmlparser2@3.9.2@htmlparser2/lib/WritableStream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_htmlparser2@3.9.2@htmlparser2/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_htmlparser2@3.9.2@htmlparser2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_inherits@2.0.3@inherits/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_inherits@2.0.3@inherits/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_inherits@2.0.3@inherits/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_inherits@2.0.3@inherits/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_inherits@2.0.3@inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_inherits@2.0.3@inherits/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_isarray@1.0.0@isarray/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_isarray@1.0.0@isarray/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_isarray@1.0.0@isarray/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_isarray@1.0.0@isarray/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_isarray@1.0.0@isarray/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_isarray@1.0.0@isarray/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_isarray@1.0.0@isarray/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_isarray@1.0.0@isarray/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_isarray@1.0.0@isarray/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_Uint8Array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_WeakMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_apply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayAggregator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayEach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayEachRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayEvery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayIncludes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayIncludesWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayLikeKeys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayPush.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayReduce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayReduceRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arraySample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arraySampleSize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arrayShuffle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_arraySome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_asciiSize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_asciiToArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_asciiWords.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_assignMergeValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_assignValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_assocIndexOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseAggregator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseAssign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseAssignIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseAssignValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseAt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseClamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseClone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseConforms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseConformsTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseDelay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseFlatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseFor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseForRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseInRange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseIsNative.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseIsTypedArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseIteratee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseMerge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseOrderBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_basePick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_basePropertyOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseRandom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseRest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseToPairs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseValues.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_baseWhile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_cloneDataView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_cloneRegExp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_copyObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_createBaseFor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_createCompounder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_createCurry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_createFind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_createOver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_createPartial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_createRecurry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_customDefaultsMerge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_customOmitClone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_escapeHtmlChar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_flatRest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_getMapData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_getTag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_hasPath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_hasUnicode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_hasUnicodeWord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_insertWrapDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_isFlattenable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_isPrototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_lazyClone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_metaMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_objectToString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_overArg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_reEvaluate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_safeGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_setCacheAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_setData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_setToArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_setToPairs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_stringSize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_stringToPath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/_unescapeHtmlChar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/after.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/assignWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/collection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/curryRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/debounce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/deburr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/drop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/dropWhile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/endsWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/eq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/findLastIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/forEach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/fp/curryRightN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/fp/eq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/fp/forEachRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/fp/padCharsStart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/fp/tap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/functionsIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/identity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/indexOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/intersectionWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/isInteger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/isNil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/isNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/isRegExp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/isSafeInteger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/isString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/isWeakMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/keyBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/matches.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/mean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/merge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/omitBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/orderBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/pad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/propertyOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/pull.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/pullAllBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/some.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/sortedIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/split.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/startsWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/sumBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/take.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/takeWhile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/toNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/truncate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/unionBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/value.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/without.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/wrapperLodash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/wrapperValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_lodash@4.17.10@lodash/xorWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_nth-check@1.0.1@nth-check/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_nth-check@1.0.1@nth-check/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_nth-check@1.0.1@nth-check/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_nth-check@1.0.1@nth-check/compile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_nth-check@1.0.1@nth-check/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_nth-check@1.0.1@nth-check/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_nth-check@1.0.1@nth-check/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_nth-check@1.0.1@nth-check/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/common/doctype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/common/foreign_content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/common/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/common/unicode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/extensions/location_info/open_element_stack_mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/extensions/location_info/parser_mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/extensions/location_info/tokenizer_mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/extensions/position_tracking/preprocessor_mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/parser/formatting_element_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/parser/open_element_stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/parser/parser_stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/parser/plain_text_conversion_stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/sax/dev_null_stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/sax/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/sax/parser_feedback_simulator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/serializer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/serializer/serializer_stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/tokenizer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/tokenizer/named_entity_data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/tokenizer/preprocessor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/tree_adapters/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/tree_adapters/htmlparser2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/utils/merge_options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/lib/utils/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_parse5@3.0.3@parse5/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_process-nextick-args@2.0.0@process-nextick-args/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_process-nextick-args@2.0.0@process-nextick-args/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_process-nextick-args@2.0.0@process-nextick-args/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_process-nextick-args@2.0.0@process-nextick-args/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_process-nextick-args@2.0.0@process-nextick-args/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/GOVERNANCE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/doc/wg-meetings/2015-01-30.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/duplex-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/duplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/lib/_stream_duplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/lib/_stream_passthrough.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/lib/_stream_readable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/lib/_stream_transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/lib/_stream_writable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/lib/internal/streams/BufferList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/lib/internal/streams/destroy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/lib/internal/streams/stream-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/lib/internal/streams/stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/passthrough.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/readable-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/readable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/writable-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_readable-stream@2.3.6@readable-stream/writable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_safe-buffer@5.1.2@safe-buffer/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_safe-buffer@5.1.2@safe-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_safe-buffer@5.1.2@safe-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_safe-buffer@5.1.2@safe-buffer/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_safe-buffer@5.1.2@safe-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_safe-buffer@5.1.2@safe-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_string_decoder@1.1.1@string_decoder/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_string_decoder@1.1.1@string_decoder/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_string_decoder@1.1.1@string_decoder/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_string_decoder@1.1.1@string_decoder/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_string_decoder@1.1.1@string_decoder/lib/string_decoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_string_decoder@1.1.1@string_decoder/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_util-deprecate@1.0.2@util-deprecate/.npminstall.done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_util-deprecate@1.0.2@util-deprecate/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_util-deprecate@1.0.2@util-deprecate/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_util-deprecate@1.0.2@util-deprecate/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_util-deprecate@1.0.2@util-deprecate/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_util-deprecate@1.0.2@util-deprecate/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node学习/http--node/node_modules/_util-deprecate@1.0.2@util-deprecate/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrollInToView.html" beforeDir="false" afterPath="$PROJECT_DIR$/scrollInToView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node学习/北森学习网-进击node.md" beforeDir="false" afterPath="$PROJECT_DIR$/Node学习/北森学习网-进击node.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,38 +429,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="17" />
+      <file leaf-file-name="北森学习网-进击node.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Node学习/北森学习网-进击node.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="438">
+                <caret line="156" selection-start-line="156" selection-end-line="156" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/class.js">
+      <file leaf-file-name="crawler.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node学习/http--node/crawler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="383">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="student.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/student.js">
+      <file leaf-file-name="http.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node学习/http--node/http.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="teacher.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/teacher.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="247">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -56,8 +462,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Node学习/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="57">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -93,7 +499,14 @@
         <option value="$PROJECT_DIR$/Node学习/http--回调/asyn.js" />
         <option value="$PROJECT_DIR$/Node学习/http--回调/event.js" />
         <option value="$PROJECT_DIR$/scrollInToView.html" />
+        <option value="$PROJECT_DIR$/Node学习/http--node/scope.js" />
+        <option value="$PROJECT_DIR$/Node学习/http--node/context.js" />
+        <option value="$PROJECT_DIR$/Node学习/http--node/call &amp; applly.js" />
+        <option value="$PROJECT_DIR$/Node学习/http--node/call &amp; apply _ extend.js" />
+        <option value="$PROJECT_DIR$/Node学习/http--node/extend_call &amp; apply.js" />
+        <option value="$PROJECT_DIR$/Node学习/http--node/http.js" />
         <option value="$PROJECT_DIR$/Node学习/北森学习网-进击node.md" />
+        <option value="$PROJECT_DIR$/Node学习/http--node/crawler.js" />
       </list>
     </option>
   </component>
@@ -115,13 +528,14 @@
     <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,17 +552,24 @@
               <item name="practice_resources" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice_resources" type="462c0819:PsiDirectoryNode" />
               <item name="Node学习" type="462c0819:PsiDirectoryNode" />
+              <item name="http--node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice_resources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice_resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Node学习" type="462c0819:PsiDirectoryNode" />
               <item name="school--node小练习" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/测试js" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
   </component>
   <component name="RunDashboard">
@@ -192,6 +613,9 @@
       <workItem from="1529744683264" duration="522000" />
       <workItem from="1529805952075" duration="3466000" />
       <workItem from="1529890921077" duration="2297000" />
+      <workItem from="1529901723897" duration="706000" />
+      <workItem from="1529981289529" duration="7319000" />
+      <workItem from="1530062624732" duration="17548000" />
     </task>
     <task id="LOCAL-00001" summary="idea文件">
       <created>1528964298635</created>
@@ -228,23 +652,31 @@
       <option name="project" value="LOCAL" />
       <updated>1529552340588</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="node学习相关">
+      <created>1530072109327</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530072109327</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58708000" />
+    <option name="totallyTimeSpent" value="84281000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18824404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18809272" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.3289256" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4985119" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49947312" side_tool="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4985119" weight="0.32824427" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" x="0" y="23" width="1366" height="705" id="Terminal" order="12" sideWeight="0.5014881" weight="0.32231405" />
+      <window_info anchor="bottom" x="0" y="23" width="1366" height="705" id="Terminal" order="12" sideWeight="0.50052685" visible="true" weight="0.32061067" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -296,57 +728,10 @@
     <MESSAGE value="git学习" />
     <MESSAGE value="更新" />
     <MESSAGE value="node小练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="node小练习" />
+    <MESSAGE value="node学习相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="node学习相关" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/teacher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/student.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/赛诺贝斯-node入门培训.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="684">
-            <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/北森学习网-进击node.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2166">
-            <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -625,10 +1010,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/student.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scrollInToView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        <state relative-caret-position="175">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/teacher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node学习/http--node/scope.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node学习/http--node/extend_call &amp; apply.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node学习/http--node/call &amp; applly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node学习/http--node/context.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node学习/http--node/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node学习/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node学习/http--node/crawler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -640,45 +1102,10 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="363">
-            <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+          <first_editor relative-caret-position="438">
+            <caret line="156" selection-start-line="156" selection-end-line="156" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/teacher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/student.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
