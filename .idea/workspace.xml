@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21d71392-f66f-4be7-a877-350752d0ff2f" name="Default" comment="更新">
+    <list default="true" id="21d71392-f66f-4be7-a877-350752d0ff2f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node学习/http--node/crawler.js" beforeDir="false" afterPath="$PROJECT_DIR$/Node学习/http--node/crawler.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,8 +40,8 @@
       <file leaf-file-name="events.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Node学习/events/events.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+            <state relative-caret-position="734">
+              <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -50,8 +49,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+            <state relative-caret-position="568">
+              <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -130,7 +129,7 @@
       <path value="$PROJECT_DIR$/webpack学习/webpackTest/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1932" />
@@ -159,20 +158,7 @@
             <path>
               <item name="practice_resources" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice_resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Node学习" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice_resources" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice_resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Node学习" type="462c0819:PsiDirectoryNode" />
-              <item name="http--node" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice_resources" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice_resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Node学习" type="462c0819:PsiDirectoryNode" />
-              <item name="school--node小练习" type="462c0819:PsiDirectoryNode" />
+              <item name="Python学习" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,8 +169,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="G:/测试js" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="G:/vue-test" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -231,7 +217,7 @@
       <workItem from="1529981289529" duration="7319000" />
       <workItem from="1530062624732" duration="17794000" />
       <workItem from="1530147953672" duration="5600000" />
-      <workItem from="1530154215046" duration="259000" />
+      <workItem from="1530154215046" duration="2402000" />
     </task>
     <task id="LOCAL-00001" summary="idea文件">
       <created>1528964298635</created>
@@ -275,24 +261,31 @@
       <option name="project" value="LOCAL" />
       <updated>1530072109327</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="node学习">
+      <created>1530154562988</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530154562988</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90386000" />
+    <option name="totallyTimeSpent" value="92529000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18809272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18809272" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49947312" side_tool="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4985119" weight="0.32824427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" x="0" y="23" width="1366" height="705" id="Terminal" order="12" sideWeight="0.50052685" weight="0.32026145" />
+      <window_info anchor="bottom" x="0" y="23" width="1366" height="705" id="Terminal" order="12" sideWeight="0.50052685" weight="0.31952018" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -345,7 +338,8 @@
     <MESSAGE value="更新" />
     <MESSAGE value="node小练习" />
     <MESSAGE value="node学习相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="node学习相关" />
+    <MESSAGE value="node学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="node学习" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Node学习/赛诺贝斯-node入门培训.md">
@@ -707,15 +701,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Node学习/events/events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        <state relative-caret-position="734">
+          <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+        <state relative-caret-position="568">
+          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
         </state>
       </provider>
     </entry>
