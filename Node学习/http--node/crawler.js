@@ -29,6 +29,7 @@ function filterChapters (html) {
     })
     return courseData;
 }
+//输出爬出来的数据
 function printCoureInfo (courseData) {
     courseData.forEach(function(item) {
         var chapterTitle = item.chapterTitle;
@@ -40,9 +41,11 @@ function printCoureInfo (courseData) {
 }
 http.get(url, function (res) {
     var html = "";
+    
     res.on('data', function (data) {
         html+=data;
     });
+
     res.on('end', function () {
         var courseData = filterChapters(html);
         printCoureInfo (courseData)
