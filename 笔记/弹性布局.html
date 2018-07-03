@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			div {
+				display: inline-block;
+			}
+			
+			.content {
+				display: flex;
+			}
+			
+			.box {
+				width: 100px;
+				height: 100px;
+				background-color: beige;
+				border-radius: 20px;
+				padding: 8px;
+				margin: 50px 50px;
+			}
+			
+			.item {
+				width: 20px;
+				height: 20px;
+				border-radius: 50%;
+				background-color: black;
+				margin: 6.6px;
+			}
+			
+			.box1 {
+				display: flex;
+			}
+			
+			.box2 {
+				display: flex;
+				justify-content: center;
+			}
+			
+			.box3 {
+				display: flex;
+				justify-content: flex-end;
+			}
+			
+			.box4 {
+				display: flex;
+				align-items: center;
+			}
+			
+			.box5 {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.box6 {
+				display: flex;
+				justify-content: center;
+				align-items: flex-end;
+			}
+			
+			.box7 {
+				display: flex;
+				justify-content: space-between;
+			}
+			
+			.box8 {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+			
+			.box9 {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+			}
+			
+			.box10 {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: flex-end;
+			}
+			
+			.box11 {
+				display: flex;
+			}
+			
+			.item_box11_2 {
+				align-self: center;
+			}
+			
+			.box12 {
+				display: flex;
+				justify-content: space-between;
+			}
+			
+			.item_box12_2 {
+				align-self: flex-end;
+			}
+			
+			.box13 {
+				display: flex;
+				justify-content: space-between;
+			}
+			
+			.item_box13_2 {
+				align-self: center;
+			}
+			
+			.item_box13_3 {
+				align-self: flex-end;
+			}
+			
+			.box14 {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: flex-end;
+				align-content: space-between;
+			}
+			
+			.box15 {
+				display: flex;
+				flex-wrap: wrap;
+				align-content: space-between;
+			}
+			
+			.box15 .temp {
+				flex-basis: 100%;
+				display: flex;
+				justify-content: space-between;
+			}
+			
+			.box16 {
+				display: flex;
+				flex-wrap: wrap;
+				align-content: space-between;
+			}
+			
+			.box17 {
+				display: flex;
+				flex-flow: column wrap;
+				align-content: space-between;
+			}
+			
+			.box18 {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			
+			.box18 .row {
+				flex-basis: 100%;
+				display: flex;
+			}
+			
+			.box18 .row:nth-child(2) {
+				justify-content: center;
+			}
+			
+			.box18 .row:nth-child(3) {
+				justify-content: space-between;
+			}
+			
+			.box19 {
+				display: flex;
+				flex-wrap: wrap;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!----------------------一个点---------------------------->
+		<div class="content">
+			<div class="box box1">
+				<div class="item item_box1_1"></div>
+			</div>
+			<div class="box box2">
+				<div class="item item_box2_1"></div>
+			</div>
+			<div class="box box3">
+				<div class="item item_box3_1"></div>
+			</div>
+			<div class="box box4">
+				<div class="item item_box4_1"></div>
+			</div>
+			<div class="box box5">
+				<div class="item item_box5_1"></div>
+			</div>
+			<div class="box box6">
+				<div class="item item_box6_1"></div>
+			</div>
+			<div class="box box7">
+				<div class="item item_box7_1"></div>
+			</div>
+		</div>
+		<!------------------------两个点------------------------------>
+		<div class="content">
+			<div class="box box7">
+				<div class="item item_box7_1"></div>
+				<div class="item item_box7_2"></div>
+			</div>
+			<div class="box box8">
+				<div class="item item_box8_1"></div>
+				<div class="item item_box8_2"></div>
+			</div>
+			<div class="box box9">
+				<div class="item item_box9_1"></div>
+				<div class="item item_box9_2"></div>
+			</div>
+			<div class="box box10">
+				<div class="item item_box10_1"></div>
+				<div class="item item_box10_2"></div>
+			</div>
+			<div class="box box11">
+				<div class="item item_box11_1"></div>
+				<div class="item item_box11_2"></div>
+			</div>
+			<div class="box box12">
+				<div class="item item_box12_1"></div>
+				<div class="item item_box12_2"></div>
+			</div>
+		</div>
+		<!------------------------三个点------------------------------>
+		<div class="content">
+			<div class="box box13">
+				<div class="item item_box13_1"></div>
+				<div class="item item_box13_2"></div>
+				<div class="item item_box13_3"></div>
+			</div>
+		</div>
+		<!------------------------四个点------------------------------>
+		<div class="content">
+			<div class="box box14">
+				<div class="item item_box14_1"></div>
+				<div class="item item_box14_2"></div>
+				<div class="item item_box14_3"></div>
+				<div class="item item_box14_4"></div>
+			</div>
+			<div class="box box15">
+				<div class="temp">
+					<div class="item item_box15_1"></div>
+					<div class="item item_box15_2"></div>
+				</div>
+				<div class="temp">
+					<div class="item item_box15_3"></div>
+					<div class="item item_box15_4"></div>
+				</div>
+			</div>
+		</div>
+		<!------------------------六个点------------------------------>
+		<div class="content">
+			<div class="box box16">
+				<div class="item item_box16_1"></div>
+				<div class="item item_box16_2"></div>
+				<div class="item item_box16_3"></div>
+				<div class="item item_box16_4"></div>
+				<div class="item item_box16_5"></div>
+				<div class="item item_box16_6"></div>
+			</div>
+			<div class="box box17">
+				<div class="item item_box17_1"></div>
+				<div class="item item_box17_2"></div>
+				<div class="item item_box17_3"></div>
+				<div class="item item_box17_4"></div>
+				<div class="item item_box17_5"></div>
+				<div class="item item_box17_6"></div>
+			</div>
+			<div class="box box18">
+				<div class="row">
+					<div class="item item_box18_1"></div>
+					<div class="item item_box18_2"></div>
+					<div class="item item_box18_3"></div>
+				</div>
+				<div class="row">
+					<div class="item item_box18_4"></div>
+				</div>
+				<div class="row">
+					<div class="item item_box18_5"></div>
+					<div class="item item_box18_6"></div>
+				</div>
+			</div>
+		</div>
+		<!------------------------九个点------------------------------>
+		<div class="content">
+			<div class="box box19">
+				<div class="item item_box19_1"></div>
+				<div class="item item_box19_2"></div>
+				<div class="item item_box19_3"></div>
+				<div class="item item_box19_4"></div>
+				<div class="item item_box19_5"></div>
+				<div class="item item_box19_6"></div>
+				<div class="item item_box19_7"></div>
+				<div class="item item_box19_8"></div>
+				<div class="item item_box19_9"></div>
+			</div>
+
+		</div>
+		
+	</body>
+
+</html>

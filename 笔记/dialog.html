@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<dialog>
+			<h1>这是dialog的标题</h1>
+			<div>这是dialog的内容</div>
+			<button id="close_dialog">关闭</button>
+		</dialog>
+		<button id="open_dialog">打开</button>
+		<!-- js代码 -->
+		<script>
+			var dialog = document.getElementsByTagName("dialog")[0],
+				openDialog = document.getElementById("open_dialog"),
+				closeDialog = document.getElementById("close_dialog");
+			openDialog.onclick = function() {
+				//有遮罩层
+				dialog.showModal();
+				//没有遮罩层
+//				dialog.show();
+			};
+			closeDialog.onclick = function() {
+				dialog.close();
+			};
+		</script>
+	</body>
+</html>

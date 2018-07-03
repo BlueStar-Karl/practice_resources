@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>3dtaiji</title>
+		<style>
+			body {
+				background: #424B51;
+			}
+			
+			.conter {
+				width: 500px;
+				height: 500px;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				margin: auto;
+				-webkit-transform: rotateX(60deg) rotateY(180deg) rotateZ(45deg);
+				-webkit-transform-style: preserve-3d;
+				-webkit-transform-origin: center center;
+				transform: rotateX(60deg) rotateY(180deg) rotateZ(45deg);
+				transform-style: preserve-3d;
+				transform-origin: center center;
+				overflow: visible;
+			}
+			
+			.lr {
+				width: 300px;
+				height: 300px;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				margin: auto;
+				-webkit-transform-style: preserve-3d;
+				-webkit-animation: lr 3s linear infinite;
+				transform-style: preserve-3d;
+				animation: lr 3s linear infinite;
+				/*transform-origin: center center;*/
+			}
+			
+			@-webkit-keyframes lr {
+				0% {
+					transform: rotateZ(0deg);
+				}
+				100% {
+					transform: rotateZ(360deg);
+				}
+			}
+			
+			@keyframes lr {
+				0% {
+					transform: rotateZ(0deg);
+				}
+				100% {
+					transform: rotateZ(360deg);
+				}
+			}
+			
+			.tb {
+				width: 300px;
+				height: 300px;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				margin: auto;
+				-webkit-animation: tb 3s linear infinite;
+				animation: tb 3s linear infinite;
+			}
+			
+			@-webkit-keyframes tb {
+				0% {
+					transform: rotateX(180deg) rotateY(90deg) rotateZ(0deg);
+				}
+				100% {
+					transform: rotateX(180deg) rotateY(90deg) rotateZ(360deg);
+				}
+			}
+			
+			@keyframes tb {
+				0% {
+					transform: rotateX(180deg) rotateY(90deg) rotateZ(0deg);
+				}
+				100% {
+					transform: rotateX(180deg) rotateY(90deg) rotateZ(360deg);
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="conter">
+			<div class="lr">
+				<svg version="1.1" id="t1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+					<g>
+						<circle fill="#fff" cx="100" cy="50" r="25" />
+						<path fill="#fff" d="M100,0c27.6,0,50,22.4,50,50c0,27.6-22.4,50-50,50s-50,22.4-50,50c0,27.6,22.4,50,50,50
+        c55.2,0,100-44.8,100-100C200,44.8,155.2,0,100,0z M100,180c-16.6,0-30-13.4-30-30s13.4-30,30-30s30,13.4,30,30S116.6,180,100,180z
+        " />
+					</g>
+				</svg>
+			</div>
+			<div class="tb">
+				<svg version="1.1" id="t1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+					<g>
+						<circle fill="#32312c" cx="100" cy="50" r="25" />
+						<path fill="#32312c" d="M100,0c27.6,0,50,22.4,50,50c0,27.6-22.4,50-50,50s-50,22.4-50,50c0,27.6,22.4,50,50,50
+        c55.2,0,100-44.8,100-100C200,44.8,155.2,0,100,0z M100,180c-16.6,0-30-13.4-30-30s13.4-30,30-30s30,13.4,30,30S116.6,180,100,180z
+        " />
+					</g>
+				</svg>
+			</div>
+		</div>
+	</body>
+
+</html>

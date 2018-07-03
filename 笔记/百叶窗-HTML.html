@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				background-color: #ccc;
+			}
+			.container{
+				width: 805px;
+				height: 320px;
+				overflow: hidden;
+				margin: 100px auto;
+				box-shadow: 0 0 5px #000000;
+			}
+			.container ul{
+				overflow: hidden;
+			}
+			.container li{
+				width: 160px;
+				display: block;
+				position: relative;
+				float: left;
+				border-left: 1px solid #888;
+				box-shadow: 0 0 25px #000000;
+				transform: all 0.5px;
+			}
+			.container ul:hover li{
+				width: 40px;
+			}
+			.container ul li:hover{
+				width: 640px;
+			}
+			.container li span{
+				display: block;
+				height: 320px;
+			}
+			.image_title{
+				background: rgba(0,0,0,0.5);
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 640px;
+			}
+			.image_title a{
+				display: block;
+				color: #fff;
+				text-decoration: none;
+				padding: 20px;
+				font-size: 16px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<ul>
+				<li>
+					<div class="image_title">
+						<a href="#">1</a>
+					</div>
+					<a href="#">
+						<span style="background-color: red;"></span>
+					</a>
+				</li>
+				<li>
+					<div class="image_title">
+						<a href="#">2</a>
+					</div>
+					<a href="#">
+						<span style="background-color: orange;"></span>
+					</a>
+				</li>
+				<li>
+					<div class="image_title">
+						<a href="#">3</a>
+					</div>
+					<a href="#">
+						<span style="background-color: yellow;"></span>
+					</a>
+				</li>
+				<li>
+					<div class="image_title">
+						<a href="#">4</a>
+					</div>
+					<a href="#">
+						<span style="background-color: green;"></span>
+					</a>
+				</li>
+				<li>
+					<div class="image_title">
+						<a href="#">5</a>
+					</div>
+					<a href="#">
+						<span style="background-color: blue;"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

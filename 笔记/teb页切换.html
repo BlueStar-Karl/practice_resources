@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			#box {
+				width: 300px;
+				margin: 50px auto;
+			}
+			
+			#box input {
+				width: 80px;
+				height: 30px;
+				text-align: center;
+			}
+			
+			#box div {
+				position: absolute;
+				width: 300px;
+				height: 300px;
+				border: 1px solid black;
+				text-align: center;
+				line-height: 300px;
+				display: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="box">
+			<input type="button" name="" id="" value="选项一" style="background: white" />
+			<input type="button" name="" id="" value="选项二" />
+			<input type="button" name="" id="" value="选项三" />
+			<div style="display:block">
+				<h1>内容一</h1></div>
+			<div>
+				<h3>内容二</h3></div>
+			<div>
+				<h6>内容三</h6></div>
+		</div>
+		<script type="text/javascript">
+			var oBox = document.getElementById("box");
+			var aInput = oBox.getElementsByTagName("input");
+			var aDiv = oBox.getElementsByTagName("div");
+
+			//大清除方法
+			//          for (var i = 0; i < aInput.length; i++) {
+			//              aInput[i].index = i;
+			//              aInput[i].onclick = function(){
+			//                  for (i = 0; i< aInput.length; i++){
+			//                      this.style.background = "rgb(241,241,241)";
+			//                      aDiv[i].style.display = "none";
+			//                  }
+			//                  aInput[this.index].style.background = "white";
+			//                  aDiv[this.index].style.display = "block";
+			//              }
+			//          }
+
+			//清除上一个方法
+			var num = 0;
+			for(var i = 0; i < aInput.length; i++) {
+				aInput[i].index = i;
+				aInput[i].onclick = function() {
+					aInput[num].style.background = "rgb(241,241,241)";
+					aDiv[num].style.display = "none";
+					this.style.background = "white";
+					aDiv[this.index].style.display = "block";
+					num = this.index;
+				}
+			}
+		</script>
+	</body>
+
+</html>
