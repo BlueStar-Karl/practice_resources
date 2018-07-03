@@ -93,8 +93,3 @@ function Cat (name) {
 	Cat.prototype = new Super();
 	Cat.prototype.constructor = Cat;
 })()
-
-
-
-
-
