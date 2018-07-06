@@ -4,6 +4,7 @@ var Person = new Object();
 Person.name = 'Nike';
 Person.age = 29;
 
+
 /*这行代码创建了Object引用类型的一个新实例，然后把实例保存在变量Person中*/
 
 /*第二种：使用对象自变量的方式*/
@@ -50,6 +51,7 @@ function Person (name,age,job) {
 var person1 = new Person('Nike',29,'teacher');
 var person2 = new Person('Arvin',20,'student');
 
+
 /*对比工厂方式，我们发现一下区别
 1.没有显示的创建对象
 2.直接将属性和方法赋给了this对象
@@ -66,13 +68,14 @@ var person2 = new Person('Arvin',20,'student');
 /*第五种：原型创建对象*/
 
 function Person () {
-	Person.prototype.constructor = Person;
-	Person.prototype.name = 'Nike';
-	Person.prototype.age = 20;
-	Person.prototype.job = 'teacher';
-	Person.prototype.sayName = function () {
-		alert(this.name);
-	}
+
+}
+Person.prototype.constructor = Person;
+Person.prototype.name = 'Nike';
+Person.prototype.age = 20;
+Person.prototype.job = 'teacher';
+Person.prototype.sayName = function () {
+    alert(this.name);
 }
 var person1 = new Person();
 var person2 = new Person();
@@ -98,49 +101,3 @@ Person.prototype = {
 	}
 }
 var person1 = new Person('Nike',20,'teacher');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -21,17 +21,18 @@
 /*四.构造函数
 核心：使用时，需要将构造函数实例化*/
 	function Person(name, age, job) {
-		this.name = name;
-		this.age = age;
-		this.job = job;
+		this.name = name,
+		this.age = age,
+		this.job = job,
 		this.sayName = function() {
 			alert(this.name);
-		};
+		}
 	}
 	var person = new Person('Nike', 29, 'teacher');
 	
 /*五.原型创建*/
 	function Person(){
+		//...
 	};
 	Person.prototype.name = 'Nike';
 	Person.prototype.age = 20;
@@ -51,7 +52,7 @@
 		constructor:Person,
 		sayName: function(){
 	 		alert(this.name);
-		};
+		}
 	}
 	var person1 = new Person('Nike',20,'teacher');
 

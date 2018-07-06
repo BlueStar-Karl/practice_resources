@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="21d71392-f66f-4be7-a877-350752d0ff2f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ES6-class.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrollInToView.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端面试176问.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/太极图-CSS3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/对象创建.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/对象继承.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/百叶窗-HTML.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/百叶窗-js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记/JS创建对象.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/JS对象创建.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记/JS对象继承.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/JS对象继承.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记/对象创建.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/对象创建.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +18,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="js原生-数组去重.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/笔记/js原生-数组去重.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,7 +72,11 @@
         <option value="$PROJECT_DIR$/Node学习/app.js" />
         <option value="$PROJECT_DIR$/Node学习/http--node/comment.js" />
         <option value="$PROJECT_DIR$/各种小总结/js原生-数组去重.js" />
+        <option value="$PROJECT_DIR$/笔记/JS对象创建.js" />
+        <option value="$PROJECT_DIR$/笔记/dialog.html" />
         <option value="$PROJECT_DIR$/笔记/js原生-数组去重.js" />
+        <option value="$PROJECT_DIR$/笔记/对象创建.js" />
+        <option value="$PROJECT_DIR$/笔记/JS对象继承.js" />
       </list>
     </option>
   </component>
@@ -98,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,11 +114,15 @@
               <item name="practice_resources" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice_resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practice_resources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice_resources" type="462c0819:PsiDirectoryNode" />
+              <item name="笔记" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,6 +186,8 @@
       <workItem from="1530580608358" duration="3400000" />
       <workItem from="1530585867827" duration="8267000" />
       <workItem from="1530603698936" duration="599000" />
+      <workItem from="1530667570582" duration="3143000" />
+      <workItem from="1530858349904" duration="4374000" />
     </task>
     <task id="LOCAL-00001" summary="idea文件">
       <created>1528964298635</created>
@@ -248,19 +263,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112958000" />
+    <option name="totallyTimeSpent" value="120475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49947312" side_tool="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4985119" weight="0.32824427" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" x="0" y="23" width="1366" height="705" id="Terminal" order="12" sideWeight="0.50052685" visible="true" weight="0.31842965" />
+      <window_info anchor="bottom" x="0" y="23" width="1366" height="705" id="Terminal" order="12" sideWeight="0.50052685" weight="0.31808278" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,57 +335,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="学习笔记" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/school--node小练习/student.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/赛诺贝斯-node入门培训.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="684">
-            <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/北森学习网-进击node.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1292">
-            <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node学习/北森学习网-进击node.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="418">
-            <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Node学习/赛诺贝斯-node入门培训.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -641,10 +606,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/笔记/dialog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/classes.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记/对象创建.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="91" selection-start-line="91" selection-end-line="102" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记/JS对象创建.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记/对象继承.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="88" column="18" lean-forward="true" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记/JS对象继承.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/笔记/js原生-数组去重.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="380">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
