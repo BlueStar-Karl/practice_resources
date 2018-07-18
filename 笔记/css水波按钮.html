@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			a {
+				text-decoration: none;
+				/*文本不能被选择*/
+				user-select: none;
+				position: relative;
+				display: block;
+				margin: 100px auto;
+				width: 120px;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				border-radius: 25px;
+				color: #fff;
+				font-size: 16px;
+				cursor: pointer;
+				background-color: #ff8300;
+				box-shadow: 0 3px 9px 0 rgba(255, 131, 0, 0.35);
+				overflow: hidden;
+			}
+			
+			a:after {
+				content: "";
+				display: block;
+				position: absolute;
+				margin: auto;
+				left: -40px;
+				top: -75px;
+				width: 200px;
+				height: 200px;
+				background: #ff8300;
+				border-radius: 50%;
+				opacity: 0;
+				transition: all 0.8s;
+			}
+			
+			a:hover {
+				background: #ff9d00;
+				top: -2px;
+				box-shadow: 0 5px 13px 0 rgba(255, 131, 0, 0.59);
+			}
+			
+			a:active {
+				background-color: #ff8300;
+				top: 0;
+				box-shadow: 0 3px 9px 0 rgba(255, 131, 0, 0.35);
+			}
+			
+			a:active:after{
+				width: 0px;
+				height: 0px;
+				left: 60px;
+				top: 25px;
+				opacity: 1;
+                transition: all 0s;
+			}
+			
+			p{
+				margin: auto;
+				width: 500px;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<a href="javascript:void(0)">button</a>
+		<p>
+			使用了过渡效果，当按钮在hover状态时，按钮本身颜色变浅，:after伪类颜色深,但是透明度为0（伪类通过boder-radius实现圆形）；<br />
+			当按钮在active状态时，按钮本身颜色深，伪类实现过渡效果（宽高变化0，透明度为1，此过程有过渡效果，时间为0s，目的是实现瞬间变化）；<br />
+			当按钮松开始，伪类状态变化（使用过渡效果，时间为0.8s），形状大小发生变化，伪类颜色与按钮颜色有色彩的对比，形成水波纹。
+		</p>
+	</body>
+
+</html>

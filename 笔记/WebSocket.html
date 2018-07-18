@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>WebSocket</title>
+		<script language="javascript" type="text/javascript">
+			var wsUri = "ws://echo.websocket.org/";
+			var output;
+
+			function init() {
+				output = document.getElementById("output");
+				testWebSocket();
+			}
+
+			function testWebSocket() {
+				//websocket实例化
+				websocket = new WebSocket(wsUri);
+				//websocket事件
+				websocket.onopen = function(evt) {
+					onOpen(evt)
+				};
+				websocket.onclose = function(evt) {
+					onClose(evt)
+				};
+				websocket.onmessage = function(evt) {
+					onMessage(evt)
+				};
+				websocket.onerror = function(evt) {
+					onError(evt)
+				};
+			}
+
+			function onOpen(evt) {
+				writeToScreen("CONNECTED--连接；websocket状态:" + websocket.readyState);
+				doSend("WebSocket测试");
+			}
+
+			function onClose(evt) {
+				writeToScreen("DISCONNECTED--断开连接；websocket状态:" + websocket.readyState);
+			}
+
+			function onMessage(evt) {
+				writeToScreen('<span style="color: blue;">RESPONSE(响应): ' + evt.data + '；websocket状态:' + websocket.readyState + '</span>');
+				websocket.close();
+			}
+
+			function onError(evt) {
+				writeToScreen('<span style="color: red;">ERROR(错误):</span> ' + evt.data + '；websocket状态:' + websocket.readyState);
+			}
+
+			function doSend(message) {
+				writeToScreen("SENT(发送): " + message + '；websocket状态:' + websocket.readyState);
+				websocket.send(message);
+			}
+
+			function writeToScreen(message) {
+				var pre = document.createElement("p");
+				pre.style.wordWrap = "break-word";
+				pre.innerHTML = message;
+				output.appendChild(pre);
+			}
+
+			window.addEventListener("load", init, false);
+		</script>
+	</head>
+
+	<body>
+		<h2>WebSocket Test</h2>
+		<div id="output"></div>
+	</body>
+
+</html>

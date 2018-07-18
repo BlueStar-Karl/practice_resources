@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<!--移动端专用，如果有响应式布局，则不使用meta标签-->
+		<meta name="viewport" content="width=device-width,inital-scale=1.0,minimum-scale=1.0,maximum=1.0,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+			body,
+			p,
+			ul,
+			li {
+				margin: 0;
+				padding: 0;
+			}
+			
+			li {
+				list-style: none;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			img{
+				display: block;
+			}
+			header {
+				height: 50px;
+				background: rgba(0, 0, 0, 0.5);
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				color: #fff;
+				position: fixed;
+				width: 100%;
+				top: 0;
+			}
+			
+			header img {
+				width: 150px;
+				height: 50px;
+			}
+			
+			header span {
+				margin-left: 20px;
+			}
+			
+			header a {
+				margin-right: 10px;
+				color: white;
+			}
+			
+			header ul {
+				display: none;
+			}
+			.banner{
+				height: 250px;
+				background: url(图片/微信图片_20180321103600.png) no-repeat center center;
+				background-size: cover;
+			}
+			.pic{
+				padding: 10px;
+				user-select: none;
+				pointer-events: none;
+			}
+			.pic .toppic img{
+				width: 100%;
+				margin-bottom: 10px;
+			}
+			.pic .btopic{
+				display: flex;
+			}
+			.pic .btopic span{
+				display: block;
+				flex: 1;
+			}
+			.pic .btopic span img{
+				width: 100%;
+			}
+			.pic .btopic span:first-of-type{
+				margin-right: 10px;
+			}
+			/*响应式布局，媒体查询，样式顺序由大到小，先写大范围样式，后写小范围样式*/
+			
+			@media only screen and (min-width: 780px) {
+				header span {
+					display: none;
+				}
+				header img {
+					margin-left: 20px;
+				}
+				header ul {
+					display: flex;
+				}
+				header ul li {
+					margin: 0 10px;
+				}
+				.pic{
+					display: flex;
+				}
+				.pic .toppic{
+					margin-right: 10px;
+				}
+				.pic .toppic img{
+					margin-bottom: 0;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<span>menu</span>
+			<img src="图片/微信图片_20180321103600.png" />
+			<ul>
+				<li>
+					<a href="javascript:void(0)">网站首页</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">网站首页</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">网站首页</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">网站首页</a>
+				</li>
+			</ul>
+			<a href="javascript:void(0)">登陆</a>
+		</header>
+		<div class="banner"></div>
+		<div class="pic">
+			<div class="toppic">
+				<img src="图片/微信图片_20180321103600.png"/>
+			</div>
+			<div class="btopic">
+				<span>
+					<img src="图片/微信图片_20180321103600.png"/>
+				</span>
+				<span>
+					<img src="图片/微信图片_20180321103600.png"/>
+				</span>
+			</div>
+		</div>
+		
+	</body>
+
+</html>
