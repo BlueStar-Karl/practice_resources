@@ -30,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/Git学习/教小仙女儿学git--入门版.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="627">
-                <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+              <first_editor relative-caret-position="589">
+                <caret line="78" column="80" selection-start-line="78" selection-start-column="80" selection-end-line="78" selection-end-column="80" />
               </first_editor>
               <second_editor />
             </state>
@@ -338,7 +338,7 @@
       <workItem from="1531730030009" duration="2982000" />
       <workItem from="1531885246447" duration="1388000" />
       <workItem from="1531899499210" duration="4810000" />
-      <workItem from="1531962804208" duration="1039000" />
+      <workItem from="1531962804208" duration="1532000" />
     </task>
     <task id="LOCAL-00001" summary="idea文件">
       <created>1528964298635</created>
@@ -424,11 +424,25 @@
       <option name="project" value="LOCAL" />
       <updated>1531912215081</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="教小仙女儿学git">
+      <created>1531963905797</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1531963905797</updated>
+    </task>
+    <task id="LOCAL-00014" summary="教小仙女儿学git">
+      <created>1531964222553</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1531964222553</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135324000" />
+    <option name="totallyTimeSpent" value="135817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -796,8 +810,8 @@
     <entry file="file://$PROJECT_DIR$/Git学习/教小仙女儿学git--入门版.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="627">
-            <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <first_editor relative-caret-position="589">
+            <caret line="78" column="80" selection-start-line="78" selection-start-column="80" selection-end-line="78" selection-end-column="80" />
           </first_editor>
           <second_editor />
         </state>
