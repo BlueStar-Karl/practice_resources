@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="21d71392-f66f-4be7-a877-350752d0ff2f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git学习/基础命令.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Git学习/基础命令.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Git学习/教小仙女儿学git--入门版.md" beforeDir="false" afterPath="$PROJECT_DIR$/Git学习/教小仙女儿学git--入门版.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,21 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="基础命令.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Git学习/基础命令.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="853">
-              <caret line="62" column="81" lean-forward="true" selection-start-line="62" selection-start-column="81" selection-end-line="62" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="教小仙女儿学git--入门版.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="教小仙女儿学git--入门版.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Git学习/教小仙女儿学git--入门版.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="219">
-                <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <first_editor relative-caret-position="538">
+                <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -97,8 +88,8 @@
         <option value="$PROJECT_DIR$/笔记/vue生命周期.html" />
         <option value="$PROJECT_DIR$/笔记/vue笔记.js" />
         <option value="$PROJECT_DIR$/Git学习/package.json" />
-        <option value="$PROJECT_DIR$/Git学习/教小仙女儿学git--入门版.md" />
         <option value="$PROJECT_DIR$/Git学习/基础命令.txt" />
+        <option value="$PROJECT_DIR$/Git学习/教小仙女儿学git--入门版.md" />
       </list>
     </option>
   </component>
@@ -126,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,7 +144,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,7 +216,8 @@
       <workItem from="1531885246447" duration="1388000" />
       <workItem from="1531899499210" duration="4810000" />
       <workItem from="1531962804208" duration="2483000" />
-      <workItem from="1531968246662" duration="56000" />
+      <workItem from="1531968246662" duration="272000" />
+      <workItem from="1531980833543" duration="137000" />
     </task>
     <task id="LOCAL-00001" summary="idea文件">
       <created>1528964298635</created>
@@ -332,24 +324,31 @@
       <option name="project" value="LOCAL" />
       <updated>1531964405534</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="git分支跟踪">
+      <created>1531968338427</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1531968338427</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136824000" />
+    <option name="totallyTimeSpent" value="137177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12592202" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12539515" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.39041096" side_tool="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.60958904" weight="0.32824427" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" x="0" y="23" width="1366" height="705" id="Terminal" order="12" sideWeight="0.49894625" weight="0.27371866" />
+      <window_info active="true" anchor="bottom" x="0" y="23" width="1366" height="705" id="Terminal" order="12" sideWeight="0.49894625" visible="true" weight="0.27371866" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -407,7 +406,8 @@
     <MESSAGE value="学习笔记" />
     <MESSAGE value="学习笔记：对象创建以及继承" />
     <MESSAGE value="教小仙女儿学git" />
-    <option name="LAST_COMMIT_MESSAGE" value="教小仙女儿学git" />
+    <MESSAGE value="git分支跟踪" />
+    <option name="LAST_COMMIT_MESSAGE" value="git分支跟踪" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/各种小总结/ES6-class.js" />
@@ -694,20 +694,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Git学习/教小仙女儿学git--入门版.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="219">
-            <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Git学习/基础命令.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Git学习/基础命令.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="62" column="81" lean-forward="true" selection-start-line="62" selection-start-column="81" selection-end-line="62" selection-end-column="81" />
+    <entry file="file://$PROJECT_DIR$/Git学习/教小仙女儿学git--入门版.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="538">
+            <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
