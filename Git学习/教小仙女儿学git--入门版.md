@@ -35,8 +35,9 @@ ssh-keygen -t rsa -C "youremail@example.com"
 ```
 //建立远程仓库和本地仓库的联系  
 git remote add origin [Your GitHub 仓库地址]
-```
-（具体如何在github上创建项目并添加SSH Key，看廖雪峰的网站介绍，很详细）
+```  
+（具体如何在github上创建项目并添加SSH Key，看廖雪峰的网站介绍，很详细）  
+
 2. 从远程仓库克隆代码到本地 --- 第二种方法，最常用  
 同样需要你的领导将你的SSH Key**公钥**放到项目的Key中，然后，通过克隆命令，将远程代码克隆到本地，你就拥有了一份和GitHub上一模一样的代码。
 ```
@@ -73,6 +74,7 @@ git add [文件名]
 git commit -m [对本次提交的描述]
 git push
 ```
+![git提交过程](./image/git_base.png)
 
 >  工作区  ->  git add [文件名]  ->  暂存区  ->  git commit -m [对本次提交的描述]  ->  本地仓库  ->git push 远程仓库  
 讲到这里，git的基本用法和操作就结束了，常用的就是这些命令，剩下是一些补充，工作中可能会遇到  
