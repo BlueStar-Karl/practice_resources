@@ -21,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/Git学习/教小仙女儿学git--入门版.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="538">
-                <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+              <first_editor relative-caret-position="500">
+                <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -148,7 +148,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/schneider_ldharvest_wechat20180625" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
@@ -217,7 +217,8 @@
       <workItem from="1531899499210" duration="4810000" />
       <workItem from="1531962804208" duration="2483000" />
       <workItem from="1531968246662" duration="272000" />
-      <workItem from="1531980833543" duration="137000" />
+      <workItem from="1531980833543" duration="1147000" />
+      <workItem from="1532049370426" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="idea文件">
       <created>1528964298635</created>
@@ -335,7 +336,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137177000" />
+    <option name="totallyTimeSpent" value="138837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -704,8 +705,8 @@
     <entry file="file://$PROJECT_DIR$/Git学习/教小仙女儿学git--入门版.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="538">
-            <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+          <first_editor relative-caret-position="500">
+            <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>
