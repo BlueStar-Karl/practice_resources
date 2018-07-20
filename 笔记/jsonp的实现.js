@@ -31,7 +31,7 @@
     }
 
 
-    // 因为jsonp是一个私有函数外部不能调用，所有jsonp函数作文window对象的一个方法，供外部调用
+    // 因为jsonp是一个私有函数外部不能调用，所以jsonp函数作为window对象的一个方法，供外部调用
     window.$jsonp = jsonp;
 
 })(window,documet)
