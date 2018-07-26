@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../js/knockout-2.2.0.debug.js"></script>
+</head>
+<body>
+
+
+Choose a ticket class:
+<select data-bind="options: ticketJson,
+                   optionsText: 'name',
+                   value: ticket">
+</select>
+<p data-bind="text: ticket().name"></p>
+<b data-bind="text: formatPrice(ticket().price)"></b>
+<script type="text/javascript">
+    function formatPrice(price) {
+        return price == 0 ? 'Free' : '$' + price.toFixed(2);
+    }
+    var viewModel = {
+        ticketJson: [
+            { name: "Economy", price: 199.95 },
+            { name: "Business", price: 449.22 },
+            { name: "First Class", price: 1199.99 }
+        ],
+        ticket: ko.observable(this.ticketJson)
+    };
+    ko.applyBindings(viewModel);
+</script>
+
+
+
+
+
+<!--    <h3>Meal upgrades</h3>
+    <p>Make your flight more bearable by selecting a meal to match your social and economic status.</p>
+    Chosen meal: <select data-bind="options: availableMeals,
+                                    optionsText: 'mealName',
+                                    value: chosenMeal"></select>
+    <p>
+        You've chosen:
+        <b data-bind="text: chosenMeal().description"></b>
+        (price: <span data-bind='text: formatPrice(chosenMeal().extraCost)'></span>)
+    </p>
+
+<script>
+    function formatPrice(price) {
+        return price == 0 ? 'Free': '$' + price.toFixed(2)
+    }
+    var availableMeals = [
+        { mealName: 'Standard', description: 'Dry crusts of bread', extraCost: 0 },
+        { mealName: 'Premium', description: 'Fresh bread with cheese', extraCost: 9.95 },
+        { mealName: 'Deluxe', description: 'Caviar and vintage Dr Pepper', extraCost: 18.50 }
+    ];
+    var viewModel = {
+        chosenMeal: ko.observable(availableMeals[0])
+    };
+
+    ko.applyBindings(viewModel); // Makes Knockout get to work
+    // 注意：ko. applyBindings需要在上述HTML之后应用才有效
+</script>-->
+
+</body>
+</html>

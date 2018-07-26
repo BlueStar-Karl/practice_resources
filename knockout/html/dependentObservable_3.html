@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/knockout-2.2.0.debug.js"></script>
+</head>
+<body>
+<p>Enter bid price: <input data-bind="value: formattedPrice"/></p>
+
+<script>
+    let viewModel = {
+        price: ko.observable(0)
+    };
+
+    viewModel.formattedPrice = ko.dependentObservable({
+
+        read: function () {
+            return "$" + this.price().toFixed(2);
+        },
+
+        write: function (value) {
+            // Strip out unwanted characters, parse as float, then write the raw data back to the underlying "price" observable
+            value = parseFloat(value.replace(/[^\.\d]/g, ""));
+            this.price(isNaN(value) ? 0 : value); // Write to underlying storage
+        },
+        owner: viewModel
+    });
+
+    ko.applyBindings(viewModel)
+</script>
+
+</body>
+</html>

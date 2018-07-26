@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/knockout-2.2.0.debug.js"></script>
+</head>
+<body>
+
+<h2>Hello, <input data-bind="value: fullName"/></h2>
+
+<script>
+    let viewModel = {
+        firstName: ko.observable("Planet"),
+        lastName: ko.observable("Earth")
+    };
+
+    viewModel.fullName = ko.dependentObservable(function () {
+        return this.firstName() + " " + this.lastName();
+    }, viewModel);
+
+    ko.applyBindings(viewModel)
+</script>
+
+</body>
+</html>
