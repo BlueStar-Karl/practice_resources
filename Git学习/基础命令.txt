@@ -37,7 +37,7 @@
 撤回内容：
     git checkout index.html     //add之后，回退
     git reset HEAD index.html   //commit之后，回退
-    git reset --hard HEAD       //push之后，版本回退
+    git reset --hard HEAD^       //push之后，版本回退
 
 
 回滚到未来：
@@ -56,6 +56,7 @@
 添加远程仓库：
     git push origin master -u   //获取最新代码
     git remote add origin 仓库地址      //连接远程仓库
+    git remote -v               //查看远程仓库
 
 
 分支跟踪：
