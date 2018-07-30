@@ -30,7 +30,7 @@
     git log --oneline
 
 
-比较差异：
+比较差异：git
     git diff
 
 
