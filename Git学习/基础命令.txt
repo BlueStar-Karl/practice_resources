@@ -43,6 +43,10 @@
 回滚到未来：
     git reflog
 
+取消追踪文件
+    git rm --cached filename    //取消追踪文件
+    git rm -r --cached filename //取消追踪文件夹
+
 
 分支管理：
     git branch dev              //创建分支
