@@ -100,8 +100,6 @@ Person.prototype = {
  		alert(this.name)
 	}
 }
-<<<<<<< HEAD:对象创建.js
+
 var person1 = new Person('Nike',20,'teacher');
-=======
-var person1 = new Person('Nike',20,'teacher');
->>>>>>> 0f35520fe241339c0db07db6e77dcdfd611cbcf9:笔记/对象创建.js
+
