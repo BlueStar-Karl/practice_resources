@@ -7,7 +7,7 @@ Person.age = 29;
 
 /*这行代码创建了Object引用类型的一个新实例，然后把实例保存在变量Person中*/
 
-/*第二种：使用对象自变量的方式*/
+/*第二种：使用对象字面量的方式*/
 
 var Person = {};	//相当于ver Person = new Object();
 var Person = {
