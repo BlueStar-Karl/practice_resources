@@ -166,7 +166,7 @@ let person = new Class {
 	sayName () {
 		console.log(this.name)
 	}
-}('张三')；
+}('张三');
 
 person.sayName();	// 张三
 
