@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/knockout-2.2.0.debug.js"></script>
+</head>
+<body>
+
+Today's message is: <span data-bind="text: myMessage"></span>
+
+<br/>
+
+The item is <span data-bind="text: priceRating"></span> today.
+
+<script>
+    let viewModel = {
+        myMessage: ko.observable(),     //也可以直接初始化赋值
+        price: ko.observable(24.95),
+    };
+
+    viewModel.myMessage("Hello World!");
+
+    viewModel.priceRating = ko.dependentObservable(function () {
+        return this.price() > 50 ? "expensive" : "affordable";
+    },viewModel);
+
+    ko.applyBindings(viewModel)
+</script>
+
+</body>
+</html>

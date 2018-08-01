@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/knockout-2.2.0.debug.js"></script>
+</head>
+<body>
+
+<div data-bind="visible: shouldShowMessage">
+    You will see this message only when "shouldShowMessage" holds a true value.
+</div>
+<button data-bind="click: change">切换</button>
+
+<div data-bind="visible: myValues().length > 0">
+    You will see this message only when 'myValues' has at least one member.
+</div>
+
+<script>
+    let viewModel = {
+        shouldShowMessage: ko.observable(true),
+        change: function(){
+            this.shouldShowMessage(!this.shouldShowMessage());
+        },
+        myValues: ko.observableArray([]) // Initially empty, so message hidden
+    };
+    viewModel.myValues.push("some value"); // Now visible
+
+    ko.applyBindings(viewModel)
+</script>
+
+</body>
+</html>

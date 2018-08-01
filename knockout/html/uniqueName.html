@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>uniqueName</title>
+    <script src="../js/knockout-2.2.0.debug.js"></script>
+</head>
+<body>
+
+<input data-bind="value: someModelProperty, uniqueName: true"/>
+
+
+<script>
+    var viewModel = {
+        someModelProperty: ko.observable()
+    };
+
+
+    ko.applyBindings(viewModel)
+</script>
+
+</body>
+</html>

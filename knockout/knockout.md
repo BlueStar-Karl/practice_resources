@@ -267,3 +267,24 @@ JavaScript 对象没有任何办法能引用他们自身，你不能直接在vie
     + myObservableArray.destroyAll(['Chad', 132, undefined]) 找出所有等于'Chad', 123, 或undefined 的元素并给他们添加一个属性_destroy，并赋值为true
     > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_destroy是做什么用的？这只是为Rails 开发者准备的。在Rails 开发过程中，如果你传入一个JSON对象，Rails 框架会自动转换成ActiveRecord对象并且保存到数据库。Rails 框架知道哪些对象以及在数据库中存在，哪些需要添加或更新， 标记_destroy为true就是告诉框架删除这条记录。   
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注意的是：在KO render一个foreach模板的时候，会自动隐藏带有_destroy属性并且值为true的元素。所以如果你的“delete”按钮调用destroy(someItem) 方法的话，UI界面上的相对应的元素将自动隐藏，然后等你提交这个JSON对象到Rails上的时候，这个元素项将从数据库删除（同时其它的元素项将正常的插入或者更新）
+
+
+## 绑定语法
+
+### visible绑定
+    
+    data-bind="visible: shoudShowMessage"
+    
+    shoudShowMessage
+
+
+
+
+
+
+
+
+
+
+
+

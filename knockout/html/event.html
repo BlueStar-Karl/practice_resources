@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/knockout-2.2.0.debug.js"></script>
+</head>
+<body>
+
+<div>
+    <div data-bind="event: { mouseover: enableDetails, mouseout: disableDetails }">
+        Mouse over me
+    </div>
+    <div data-bind="visible: detailsEnabled">
+        Details
+    </div>
+    <button data-bind="event: { mouseover: function() { viewModel.myFunction('param1', 'param2') } }">
+        Click me
+    </button>
+    <div data-bind="event: { mouseover: myFunction }">
+        Mouse over me
+    </div>
+</div>
+
+<script>
+    var viewModel = {
+        detailsEnabled: ko.observable(false),
+        enableDetails: function () {
+            this.detailsEnabled(true);
+        },
+        disableDetails: function () {
+            this.detailsEnabled(false);
+        },
+        myFunction: function (event) {
+            if (event.shiftKey) {
+                //do something different when user has shift key down
+            } else {
+                //do normal action
+            }
+        }
+    };
+
+
+    ko.applyBindings(viewModel)
+</script>
+
+</body>
+</html>

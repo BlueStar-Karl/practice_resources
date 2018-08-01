@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/knockout-2.2.0.debug.js"></script>
+    <style>
+        .profitWarning{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div data-bind="css: { profitWarning: currentProfit() < 0 }">
+    Profit Information
+</div>
+
+<script>
+    var viewModel = {
+        currentProfit: ko.observable(150000)
+    };
+
+    viewModel.currentProfit(-50);
+
+    ko.applyBindings(viewModel)
+</script>
+
+</body>
+</html>
