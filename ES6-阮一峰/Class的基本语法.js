@@ -79,7 +79,7 @@ Point.prototype.constructor === Point	//true
 
 /*另外，类内部所有定义的方法，都是不可枚举的*/
 
-Object.key(Point.prototype)		//[]
+Object.keys(Point.prototype)		//[]
 
 /*
 类的属性名，可以采用表达式
