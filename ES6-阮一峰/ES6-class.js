@@ -101,24 +101,16 @@ Object.getPrototypeOf(SubClass2) === Class1		-->		true
 
 
 
+class AccountModel extends baseModel {
+    constructor(options, data) {
+        super({private: true}, ['32113123123', '524214691']); //call the parent method with super
+        this.name = 'Account Model';
+        this.url +='/accounts/';
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    get accountsData() { //calculated attribute getter
+        // ... make XHR
+        return this.data;
+    }
+}
+let accounts = new AccountModel(5);

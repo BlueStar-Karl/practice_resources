@@ -1,0 +1,179 @@
+## let、var和const命令
+### const
+const用来定义常量，常量不能修改
+
+    const a = 'hello'
+
+### let
+let用来定义一个块级作用域的变量，不能重复定义，但可以被修改，不存在变量提升
+
+### 变量的结构赋值
+
+    let[a,b,c] = [88,55,77];   //解构赋值的目的就是缩减代码，吧上面几行显示的用一行来替代
+    console.log(a,b,c)  //88 55 77
+
+    let[a,b,c,[d]] = [88,55,77,100];  //会报错
+    let[a,b,c,[d]] = [88,55,77,[100]];  //左边和右边的格式定义成一样的
+    console.log(a,b,c,d) ; //88 55 77 100
+    
+    let obj={
+        al:"json",
+        a2:23,
+        a3:666
+    };
+    let {aa,bb}=obj;
+    console.log(aa,bb);  //undified
+    
+    let obj2={
+        a5:"dddff",
+        "a4":"jggz",
+        a2:[11,22],
+        a3:666,
+        a1:'jaas'
+    };
+    let {a1,a2,a3,a4,a5}=obj2;   //注意格式是一致的，并且和里面的键对应
+    console.log(a2,a1,a3,a4,a5); 
+    
+
+### 模板字符串
+模板字符串（template string）是增强版的字符串，用反引号（`）标识。它可以当作普通字符串使用，也可以用来定义多行字符串，或者在字符串中嵌入变量
+
+    let name=`瞎耍`;
+    console.log("他的名字叫"+name);
+    console.log(`他的名字叫${name}`);  //反引号，不是单引号
+    
+### 扩展运算符
+
+    剩余参数：function func(a,...b){}
+    func(11,22,33)
+    则：b=[22,33]
+    
+    function func4(x,...y) {   //默认参数
+        console.log(x,y)
+    }
+    func4({a:22,b:33});     //{a: 22, b: 33}  []
+    func4(x=2,y=300);       //2,300
+
+### 数组的扩展
+
+    1、判断数组当中是否存在某个数值
+          console.log(arr.indexOf(1000))
+          console.log(arr.includes(201))
+          
+    2、对数组的遍历
+      forEach()：范围比map广，他能做的事情map不一定能做
+      map()：map能做的事情forEach一定能做
+
+      arr.forEach(function (value,index) {
+            console.log(value);
+      })
+
+      //也可以不用map,在forEach里面就能做操作，为了简单用一个map也可以解决，具体见示例
+      var arr2 = arr.map(function (value,index) {
+            return value+1
+      })
+      
+    3、对数组的过滤
+     var arr4 = arr.filter(function (value,index) {
+         return value > 50
+     })
+     console.log(arr4);
+     
+> 使用 for in 遍历对象，因为for in 遍历的是索引值  
+  使用 for of 遍历数组，因为for of 遍历的是元素值
+
+### 对象的扩展
+
+    let username="海燕";
+    function fun() {
+        alert(888)
+    }
+    let obj={username,fun};  //如果上面定义的变量和对象的key的名字同名，就不用写value了，直接把变量赋值给了对象的value
+    console.log(obj.username); //海燕
+    obj.fun();  //alert(888)
+
+### 类
+    
+    var age2 = 99;
+    Object.prototype.age2=age2;
+ 
+    function Person(name,age) {   //创建一个人类
+       this.name = name;  //属性
+       this.age = age;
+       this.run = function () {
+            alert(this.name+"跑起来")
+            alert(`${this.name}跑起来`)
+        };
+        this.sing = function () {
+            alert(`${this.name}能唱歌能跳舞`)
+        }  //会执行里面的sing方法,如果这里没有，执行外面的sing
+    }
+    Person.prototype.sing = function () {  //对函数进行扩展，增加了一个方法
+          alert(`${this.name}能唱歌`)
+    };
+ 
+    let man = new Person('小妹',19);
+    console.log(man.name);
+    console.log(man.age);
+    man.run();
+    man.sing();
+
+### 箭头函数
+箭头函数有一点需要注意  
+在es6之前，函数体内的this对象，就是使用时所在的对象，而不是定义时所在的对象
+
+    var person = {
+        name:'jack',
+           age:18,　　
+        fav:function(){        
+            console.log(this)
+        }
+    }
+
+    person.fav();
+
+用了箭头函数之后，函数体内的this对象，就是定义时所在的对象，而不是使用时所在的对象
+
+    var person2 = {
+        name:'jack',
+        age:18,
+        fav: ()=>{
+             // 当前this指向了定义时person2对象时所处的对象（window）
+             console.log(this);
+        }
+    }
+    
+    person2.fav();
+    
+为了解决这个问题
+
+     var person2 = {
+        name:'jack',
+        age:18,
+        fav() {
+             console.log(this);
+        }
+     }
+    
+     person2.fav();
+     
+### 面向对象
+通过class就能定义一个对象  
+定义“类”的方法的时候，前面不需要加上function这个关键字，直接把函数定义放进去了就可以了。另外，方法之间不需要逗号分隔，加了会报错。
+
+    class People() {
+
+        constructor(name,age):{
+            this.age = age;
+            this.name = name;
+        }
+
+        eat(){console.log('111')}
+        
+        study() {console.log('1222')}
+
+    }
+
+
+
+
