@@ -3,8 +3,8 @@ const fn = (num) => {
         num += temp;
         return func;
     };
-    func.toNumber = func.valueOf = () => num;
+    func.toString = func.valueOf = () => num;
     return func;
-}
+};
 
 fn(1)(2)(3)(4);  //10
